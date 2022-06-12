@@ -51,6 +51,7 @@ const Geography = ({
 
   return (
     <path
+      ref={ref}
       tabIndex="0"
       className={`rsm-geography ${className}`}
       d={geography.svgPath}
